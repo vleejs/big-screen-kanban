@@ -1,0 +1,85 @@
+
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: MicrosoftYaHei, SourceHanSansCN-Regular,Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,
+      Microsoft YaHei, Arial, sans-serif;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  -moz-user-select:none; /* Firefox私有属性 */
+  -webkit-user-select:none; /* WebKit内核私有属性 */
+  -ms-user-select:none; /* IE私有属性(IE10及以后) */
+  -khtml-user-select:none; /* KHTML内核私有属性 */
+  -o-user-select:none; /* Opera私有属性 */
+  user-select:none; /* CSS3属性 */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+a:focus,a:active {
+  outline: none;
+}
+a,a:focus,a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* 盒模型重设 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 移除margin */
+* {
+  margin: 0;
+}
+
+.one-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one-xc-yt{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.one-xl-yc{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
